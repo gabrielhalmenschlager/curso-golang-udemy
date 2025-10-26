@@ -15,7 +15,7 @@ func main() {
 		i++
 	}
 
-	fmt.Println("\n\n--- Contador de 0 a 20 pulando de dois em dois ---")
+	fmt.Println("\n\n--- Contando de 0 a 20 de 2 em 2 ---")
 	for i := 0; i <= 20; i += 2 {
 		fmt.Printf("%d ", i)
 	}
@@ -36,4 +36,6 @@ func main() {
 		fmt.Println("Para sempre...")
 		time.Sleep(time.Second)
 	}
+
+	// Veremos o foreach no capitulo de array
 }
