@@ -25,9 +25,9 @@ func main() {
 	pedido := pedido{
 		userID: 1,
 		itens: []item{
-			item{1, 2, 12.10},
-			item{2, 1, 23.49},
-			item{11, 100, 3.13},
+			item{produtoID: 1, qtde: 2, preco: 12.10},
+			item{produtoID: 2, qtde: 1, preco: 23.49},
+			item{produtoID: 11, qtde: 100, preco: 3.13},
 		},
 	}
 	fmt.Printf("Valor total do pedido é R$%.2f", pedido.valorTotal())
