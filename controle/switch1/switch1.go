@@ -18,7 +18,7 @@ func notaParaConceito(n float64) string {
 	case 2, 1:
 		return "E"
 	default:
-		return "Nota inválida"
+		return "Inválida"
 	}
 }
 

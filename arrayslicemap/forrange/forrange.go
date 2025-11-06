@@ -10,7 +10,7 @@ func main() {
 		fmt.Printf("%d) %d\n", i+1, numero)
 	}
 
-	for _, num := range numeros {
+	for _, num := range numeros { // usando o for sem o indice
 		fmt.Printf("%d\n", num)
 	}
 }

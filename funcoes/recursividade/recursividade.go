@@ -23,5 +23,5 @@ func main() {
 		fmt.Println(err)
 	}
 
-	// Uma solução melhor seia...
+	// Uma solução melhor seia... uint!
 }

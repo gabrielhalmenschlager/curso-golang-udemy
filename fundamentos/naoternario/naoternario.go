@@ -6,6 +6,7 @@ import "fmt"
 
 func obterResultado(nota float64) string {
 
+	// operador ternário
 	// return nota >= 6 ? "Aprovado" : "Reprovado"
 
 	if nota >= 6 {

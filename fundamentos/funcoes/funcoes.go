@@ -10,7 +10,9 @@ func imprimir(valor int) {
 	fmt.Println(valor)
 }
 
+/*
 func main() {
 	resultado := somar(10, 5)
 	imprimir(resultado)
 }
+*/

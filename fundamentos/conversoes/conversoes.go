@@ -16,7 +16,7 @@ func main() {
 
 	// cuidado...
 	fmt.Println("\n----- Cuidado... -----")
-	fmt.Println("Teste " + string(97))
+	// fmt.Println("Teste " + string(97))
 
 	// int para string
 	fmt.Println("\n----- Int para String -----")

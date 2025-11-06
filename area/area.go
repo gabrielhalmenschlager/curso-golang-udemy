@@ -2,22 +2,21 @@ package area
 
 import "math"
 
-// Pi é uma propoção numérica definida pela relação entre
-// o perimetro de uma circuferência e seu diâmetro
-
+// Pi é uma proporção numérica definida pela relação entre
+// o perímetro de uma circunferência e seu diâmetro.
 const Pi = 3.1416
 
-// Circ é responsável por calcular a área da circuferência
+// Circ é responsável por calcular a área da circunferência.
 func Circ(raio float64) float64 {
 	return math.Pow(raio, 2) * Pi
 }
 
-// Rect é reponável por calcular a área de um retangulo
+// Rect é responsável por calcular a área de um retângulo.
 func Rect(base, altura float64) float64 {
 	return base * altura
 }
 
-// Não é visível!
+// _TrianguloEq calcula a área de um triângulo equilátero (não exportada).
 func _TrianguloEq(base, altura float64) float64 {
 	return (base * altura) / 2
 }

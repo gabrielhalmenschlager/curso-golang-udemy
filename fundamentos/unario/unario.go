@@ -13,4 +13,7 @@ func main() {
 	y-- // y -= 1 ou y = y - 1
 	fmt.Println(y)
 
+	// nao permitido...
+	// fmt.Println(x == y--)
+
 }

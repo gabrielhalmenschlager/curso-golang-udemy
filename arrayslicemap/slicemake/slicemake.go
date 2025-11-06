@@ -15,5 +15,5 @@ func main() {
 
 	// adicionando um elemento a mais do que o permitido
 	s = append(s, 1)
-	fmt.Println(s, len(s), cap(s))
+	fmt.Println(s, len(s), cap(s)) // o slice dobrou a capacidade limite adicionando mais um elemento, esse é o comportamento dele
 }

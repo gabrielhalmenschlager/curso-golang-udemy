@@ -24,6 +24,6 @@ func main() {
 
 	// vc pode imaginar um slice como: tamanho e um ponteiro para um elemento de um array
 
-	s4 := s2[:1]
+	s4 := s2[:1] // criando um slice a partir de outro slice
 	fmt.Println(s2, s4)
 }
