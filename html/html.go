@@ -1,5 +1,7 @@
 package html
 
+// Pacote reultilizável
+
 import (
 	"io"
 	"net/http"
