@@ -35,5 +35,5 @@ func main() {
 	for primo := range c {
 		fmt.Printf("%d ", primo)
 	}
-	fmt.Println("Fim")
+	fmt.Println("Fim!")
 }
